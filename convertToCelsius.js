@@ -12,5 +12,7 @@ function convertFahrToCelsius(fahrenheit) {
   }
 
   let celsius = ((fahrenheit - 32) / 1.8).toFixed(4);
+  
+  console.log(celsius);
   return celsius;
 }
