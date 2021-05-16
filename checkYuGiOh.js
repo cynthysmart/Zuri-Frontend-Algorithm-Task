@@ -31,5 +31,6 @@ const checkYuGiOh = (n) => {
     }
   }
 
+  console.log(arr);
   return arr;
 };
